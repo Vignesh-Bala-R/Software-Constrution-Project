@@ -1,0 +1,100 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Page background */
+  body {
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Login box styling */
+  .loginbox {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Heading */
+  .loginbox h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form labels and inputs */
+  .loginbox label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .loginbox input[type="text"],
+  .loginbox input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border 0.3s ease;
+  }
+  
+  .loginbox input[type="text"]:focus,
+  .loginbox input[type="password"]:focus {
+    border-color: #0096c7;
+    outline: none;
+  }
+  
+  /* Login button */
+  .loginbox a button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0096c7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .loginbox a button:hover {
+    background-color: #0077b6;
+  }
+  
+  /* Sign-up link and button */
+  .loginbox p {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .signup-btn {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: #48cae4;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #00b4d8;
+  }
+  

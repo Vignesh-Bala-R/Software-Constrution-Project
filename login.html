@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - VBank</title>
+    <link rel="stylesheet" href=login.css>
+</head>
+<body>
+    <div class="loginbox">
+        <h2>Login to VBank</h2>
+        <form method="POST" action="{{ url_for('login') }}">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+
+            <a href="homepage.html">
+                <button type="button">Login</button>
+              </a>
+        </form>
+
+        <p>Don't have an account?</p>
+        <a href=signin.html><button class="signup-btn">Create Account</button></a>
+    </div>
+</body>
+</html>

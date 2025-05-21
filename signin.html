@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account - VBank</title>
+    <link rel="stylesheet" href=signin.css>
+</head>
+<body>
+    <div class="loginbox">
+        <h2>Create a VBank Account</h2>
+        <form method="POST" action="{{ url_for('signup') }}">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="confirm_password" required>
+
+            <a href="homepage.html">
+                <button type="button">signin</button>
+              </a>
+        </form>
+
+        <p>Already have an account?</p>
+        <a href=login.html><button class="signup-btn">Login Here</button></a>
+    </div>
+</body>
+</html>
